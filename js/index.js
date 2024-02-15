@@ -16,7 +16,7 @@ for(let i= 0; i <= 10; i++){
 Hola Nico, entre los videos de las clases y algunos de youtube, creo que pude plantear algo más o menos correcto. Tomé uno de los ejemplos que recomendaba Coder en caso de no saber que hacer. Hice el ejemplo de "calcular la edad promedio entre los alumnos ingresados". Como a la variable "alumnos" le di un valor de 5, usé ese número para la cantidad de veces que ingresé las edades.
 Gracias por la paciencia y comprensión, espero tu devolución. */
 
-let alumnos = 5;
+/*let alumnos = 5;
 let suma = 0;
 let seguir;
 
@@ -40,10 +40,16 @@ do{
         }
 
 }
-
-    
-while(seguir === "si"){
+ while(seguir === "si"){
     console.log(suma)
 }
+*/
+
+
+/*        14/02/24
+
+Hola Nico, igual que la vez pasada, en ésta preentrega, simplemente te dejo éste mensaje, porque todavía estoy tratando de resolver el trabajo a entregar. Ni bien lo tenga listo, te envío el link cuando esté habilitada la reentrega. Muchas gracias por la paciencia. */
+
+    
 
  
