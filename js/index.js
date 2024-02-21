@@ -1,55 +1,34 @@
-/*const NUMERO = 8;
+//segunda preentrega(reentrega)
 
-for(let i= 0; i <= 10; i++){
-    const RESULTADO = NUMERO * i;
-    console.log(NUMERO + " x " + i + " = " + RESULTADO)
-}*/
-
-/* entrego este ejercicio que hicimos en clase para que no quede sin realizar la entrega. Volví a ver las cuatro clases que incluyen el contenido para esta entrega, pero no consigo interpretar de que manera tengo que aplicar los conocimientos que vamos adquiriendo. No entiendo como plantear los ciclos aplicados a una situación o problema particular a resolver. Estoy bastante perdido, pero voy a seguir tratando de entender como aplicar lo visto en clases. Desde ya me disculpo por hacerte perder el tiempo con esto, que ni siquiera es la preentrega que se supone que entregue.*/
+//Hola Nico, como estas?, espero que bien. Me encontré superado por el trabajo a entregar, por lo que no puedo cumplir como se debe con esta entrega. Creé un clase constructora para poder hacer los productos que necesito para la tienda, y los puse dentro de un array para que los almacene como una lista. Mil disculpas de nuevo por todo. Voy a seguir tratando, para ver si puedo llegar al trabajo final. Gracias por la ayuda y los consejos.
 
 
 
-
-
-/*    5/02/24 (reentrega)
-
-Hola Nico, entre los videos de las clases y algunos de youtube, creo que pude plantear algo más o menos correcto. Tomé uno de los ejemplos que recomendaba Coder en caso de no saber que hacer. Hice el ejemplo de "calcular la edad promedio entre los alumnos ingresados". Como a la variable "alumnos" le di un valor de 5, usé ese número para la cantidad de veces que ingresé las edades.
-Gracias por la paciencia y comprensión, espero tu devolución. */
-
-/*let alumnos = 5;
-let suma = 0;
-let seguir;
-
-
-
-do{
-    const EDAD = parseInt(prompt("Ingresar edad del alumno: "));
-    suma += EDAD;
-    seguir = prompt("Desea ingresar la edad de otro alumno?, si o no");
-
-    function promediar(){
-        let resultado;
-        resultado = suma / alumnos;
-        return resultado;
-        }  
-    
-    let promedio = promediar(suma,alumnos);
-    
-    if(seguir === "no"){
-        console.log("El promedio de edad entre los alumnos es de: " + promedio + " años.");
-        }
-
+class Producto{
+    constructor(tipo, nombre, precio, cantidadDisponible){
+        this.tipo= tipo
+        this.nombre= nombre
+        this.precio= precio
+        this.cantidadDisponible= cantidadDisponible
+    }
 }
- while(seguir === "si"){
-    console.log(suma)
-}
-*/
 
+const PRODUCTO1= new Producto("repuesto","baquetas",3000, 20);
 
-/*        14/02/24
+const PRODUCTO2= new Producto("repuesto","púa",200, 300);
 
-Hola Nico, igual que la vez pasada, en ésta preentrega, simplemente te dejo éste mensaje, porque todavía estoy tratando de resolver el trabajo a entregar. Ni bien lo tenga listo, te envío el link cuando esté habilitada la reentrega. Muchas gracias por la paciencia. */
+const PRODUCTO3= new Producto("instrumento","ukelele",35000, 12); 
 
-    
+const PRODUCTO4= new Producto("accesorio","funda guitarra",28000, 35);
 
- 
+const PRODUCTO5= new Producto("instrumento","armónica",12000, 17);
+
+const PRODUCTO6= new Producto("accesorio","linea para microfono",8000, 10);
+
+const PRODUCTO7= new Producto("instrumento","guitarra electroacústica",200000, 24);
+
+const PRODUCTO8= new Producto("repuesto","encordado para guitarra criolla",6000, 150);
+
+let tienda = [PRODUCTO1,PRODUCTO2,PRODUCTO3,PRODUCTO4,PRODUCTO5, PRODUCTO6,PRODUCTO7, PRODUCTO8];
+
+console.log(tienda);
