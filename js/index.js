@@ -1,7 +1,5 @@
-//segunda preentrega(reentrega)
-
-//Hola Nico, como estas?, espero que bien. Me encontré superado por el trabajo a entregar, por lo que no puedo cumplir como se debe con esta entrega. Creé un clase constructora para poder hacer los productos que necesito para la tienda, y los puse dentro de un array para que los almacene como una lista. Mil disculpas de nuevo por todo. Voy a seguir tratando, para ver si puedo llegar al trabajo final. Gracias por la ayuda y los consejos.
-
+/* Hola Nico, cómo estás?, espero que muy bien. Te comento que finalmente, decidí dejar de hacer el curso, para volver a empezar desde cero, en mi tiempo y a mi ritmo. Me encontré superado por mi trabajo y el curso. Por lo cual decidí seguir revisando las clases, tomando notas y prácticando para mejorar, pero sin la presión que significan para mi, cumplir con las entregas y desafios en tiempo y forma.
+Por eso, voy a continuar entregándote un archivo práticamente vacío, a los fines de cumplir con las entregas, para poder seguir teniendo el acceso a las clases. Desde ya me disculpo con vos, porque se que esto no cumple las expectativas de quien espera corregir un trabajo práctico. Lamento hacerte perder el tiempo. Y como siempre, completamente agradecido, por la comprensión, paciencia y por todos los consejos que me brindaste para encarar los trabajos y mejorar. Sos un gran tutor Nico. Saludos. */
 
 
 class Producto{
@@ -32,3 +30,5 @@ const PRODUCTO8= new Producto("repuesto","encordado para guitarra criolla",6000,
 let tienda = [PRODUCTO1,PRODUCTO2,PRODUCTO3,PRODUCTO4,PRODUCTO5, PRODUCTO6,PRODUCTO7, PRODUCTO8];
 
 console.log(tienda);
+
+
