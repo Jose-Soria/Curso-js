@@ -1,5 +1,6 @@
-/* Hola Nico, cómo estás?, espero que muy bien. Te comento que finalmente, decidí dejar de hacer el curso, para volver a empezar desde cero, en mi tiempo y a mi ritmo. Me encontré superado por mi trabajo y el curso. Por lo cual decidí seguir revisando las clases, tomando notas y prácticando para mejorar, pero sin la presión que significan para mi, cumplir con las entregas y desafios en tiempo y forma.
-Por eso, voy a continuar entregándote un archivo práticamente vacío, a los fines de cumplir con las entregas, para poder seguir teniendo el acceso a las clases. Desde ya me disculpo con vos, porque se que esto no cumple las expectativas de quien espera corregir un trabajo práctico. Lamento hacerte perder el tiempo. Y como siempre, completamente agradecido, por la comprensión, paciencia y por todos los consejos que me brindaste para encarar los trabajos y mejorar. Sos un gran tutor Nico. Saludos. */
+/*  19/03/24
+
+Hola profe, le comento que desde la clase 6 dejé de hacer el curso, y solamente le entregué a mi tutor, algún trabajo imcompleto, para que no quedaran las entregas sin realizar. El curso se me volvió cuesta arriba, me atrasé y no pude seguir el ritmo de las exigencias. Las clases estuvieron todas impecables, simplemente no le dediqué el tiempo suficiente al curso, y no pude acomodarlo con mi trabajo. Desde ya, pido disculpas, porque esto no es lo que se supone que entregue. Muchas gracias por las clases.*/
 
 
 class Producto{
